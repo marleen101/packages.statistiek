@@ -1,7 +1,7 @@
 Package: packages.statistiek
 Type: Package
 Title: Packages Downloaden
-Version: 0.1.0
+Version: 0.1.1
 Author: person("Marleen", "Wolting", email = "m.g.wolting@student.vu.nl", role = c("aut", "cre"))
 Maintainer: Marleen Wolting <m.g.wolting@student.vu.nl>
 Description: Download alle packages die je nodig bent voor Statistiek 1 & 2.
@@ -22,8 +22,10 @@ Imports:
     QuantPsyc,
     rio,
     sjlabelled,
+    Statistiek.VU,
     summarytools,
     tidyverse,
     zip
 URL: https://github.com/marleen101/packages.statistiek
 BugReports: https://github.com/marleen101/packages.statistiek/issues
+RoxygenNote: 7.2.3
