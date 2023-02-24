@@ -1,0 +1,35 @@
+Package: packages
+Title: Easily Install and Load Select Packages
+Version: 0.0.1
+Authors@R: c(
+    person("Michael Wayne", "Kearney", , email = "mike.wayne.kearney@gmail.com", role = c("aut", "cre"))
+  )
+Description: The 'packagesverse' is selection of packages designed to be loaded
+    in concert. The purpose of this package is to make it easy to install and 
+    subsequently load those packages.
+Depends: 
+    R (>= 3.1)
+Imports: 
+    car,
+    cli (>= 1.0.0),
+    corrplot,
+    crayon (>= 1.3.4),
+    DescTools,
+    dplyr (>= 0.7.4),
+    expss,
+    ggplot2,
+    gmodels,
+    Hmisc,
+    janitor,
+    lubridate,
+    purrr (>= 0.2.4),
+    QuantPsyc,
+    rio,
+    rstudioapi (>= 0.7),
+    sjlabelled,
+    summarytools,
+    tibble (>= 1.4.2),
+    zip
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
