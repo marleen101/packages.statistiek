@@ -2,9 +2,26 @@ Package: packages.statistiek
 Type: Package
 Title: Packages Downloaden
 Version: 0.1.0
-Author: person( "Marleen", "Wolting", email = "m.g.wolting@student.vu.nl", role = c("aut", "cre"))
+Author: person("Marleen", "Wolting", email = "m.g.wolting@student.vu.nl", role = c("aut", "cre"))
 Maintainer: Marleen Wolting <m.g.wolting@student.vu.nl>
 Description: Download alle packages die je nodig bent voor Statistiek 1 & 2.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    car,
+    corrplot,
+    DescTools,
+    dplyr,
+    expss,
+    ggplot2,
+    gmodels,
+    Hmisc,
+    janitor,
+    lubridate,
+    QuantPsyc,
+    rio,
+    sjlabelled,
+    summarytools,
+    tidyverse,
+    zip
