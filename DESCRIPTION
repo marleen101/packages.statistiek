@@ -25,3 +25,5 @@ Imports:
     summarytools,
     tidyverse,
     zip
+URL: https://github.com/marleen101/packages.statistiek
+BugReports: https://github.com/marleen101/packages.statistiek/issues
